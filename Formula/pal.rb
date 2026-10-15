@@ -7,7 +7,7 @@ class Pal < Formula
 
   on_arm do
     url "https://github.com/palmachris7/pal/releases/download/v0.1.4/pal-v0.1.4-arm64.tar.gz"
-    sha256 "8748eddcf8e8266eaa1a6b4d56c06483af82ecb8f6b409bd5dbf4e36af89fae0"
+    sha256 "9525f60c9733cd50adec20681b74d272c1f165bfd932088964f9e1b4301c4870"
   end
 
   depends_on "rust" => :build unless Hardware::CPU.arm?
