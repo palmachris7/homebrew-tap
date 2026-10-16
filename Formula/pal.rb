@@ -1,13 +1,13 @@
 class Pal < Formula
   desc "Command finder and launcher"
   homepage "https://github.com/palmachris7/pal"
-  url "https://github.com/palmachris7/pal/archive/refs/tags/v0.1.18.tar.gz"
-  sha256 "9f0c621d45098e63d0e1a9cf51fe25c154bc65de7e4672c2638845bbd9b754b1"
+  url "https://github.com/palmachris7/pal/archive/refs/tags/v0.1.19.tar.gz"
+  sha256 "1fc0afa88f0d63721b25bfce86b191508db7df179f528e49620e6f88528c7ffd"
   license "MIT"
 
   on_arm do
-    url "https://github.com/palmachris7/pal/releases/download/v0.1.18/pal-v0.1.18-arm64.tar.gz"
-  sha256 "fb69b3ff7d6461cbd776be93fbd84c9ba30b6062ca75f102f277e23b8b670718"
+    url "https://github.com/palmachris7/pal/releases/download/v0.1.19/pal-v0.1.19-arm64.tar.gz"
+  sha256 "ad4fee5492d4b95ae8ce57060f09e37da9222c3166789c5ce9abb1de4f33dc78"
   end
 
   depends_on "rust" => :build unless Hardware::CPU.arm?
