@@ -1,15 +1,15 @@
 class Musik < Formula
   desc "Apple Music TUI player"
   homepage "https://github.com/palmachris7/musik"
-  url "https://github.com/palmachris7/musik/archive/refs/tags/v0.1.2.tar.gz"
-  sha256 "b461ea46327d96010f2ef592d368ee7403342629464df48af592bef657afc193"
+  url "https://github.com/palmachris7/musik/archive/refs/tags/v0.1.3.tar.gz"
+  sha256 "0960b8a6ca8ed9f9045ba77cad7ea1418c140749317c87cb07c31868df11a51d"
   license "MIT"
   depends_on "rust" => :build
 
   # Apple Silicon: binario directo del release, sin compilar.
   on_arm do
-    url "https://github.com/palmachris7/musik/releases/download/v0.1.2/musik-v0.1.2-arm64.tar.gz"
-  sha256 "16f228d99cd43e34d21163a52a4a93f0992d4099c308627fa13b4056a5ab12e5"
+    url "https://github.com/palmachris7/musik/releases/download/v0.1.3/musik-v0.1.3-arm64.tar.gz"
+  sha256 "47c1ca86af83e84e9a50e702a61079272d0520114965b3731a86f03adc9054e8"
   end
 
   def install
